@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Defines a function that returns the length 
+"""Defines a function that returns the length
 of each element in an iterable.
 """
 
