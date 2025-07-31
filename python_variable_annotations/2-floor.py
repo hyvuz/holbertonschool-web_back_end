@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Defines a function that returns the floor of a float without using math module."""
+"""Defines a function that returns the floor of a float."""
 
 
 def floor(n: float) -> int:
