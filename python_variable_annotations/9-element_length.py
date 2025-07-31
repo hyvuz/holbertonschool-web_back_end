@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Defines a function that returns the length of each element in an iterable."""
+"""Defines a function that returns the length 
+of each element in an iterable.
+"""
+
 
 from typing import Iterable, Sequence, List, Tuple
 
