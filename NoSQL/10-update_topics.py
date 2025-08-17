@@ -1,6 +1,19 @@
 #!/usr/bin/env python3
-"""Update topics list for all school documents matching a given name."""
-from typing import List
+"""
+Change school topics
+"""
+import pymongo
 
 
-def update_topics(mongo_collection, name: str, topics: List
+def update_topics(mongo_collection, name, topics):
+    """
+    update document with a specific attr: value
+    """
+    return mongo_collection.update_many({
+            "name": name
+        },
+        {
+            "$set": {
+                "topics": topics
+            }
+        })
